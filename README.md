@@ -1,197 +1,44 @@
-<html>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
 
-<div class=WordSection1>
+    <div class="menu breakfast">
+        <h1>Breakfast Menu</h1>
+        <ul>
+            <li>Pancakes - $5.00</li>
+            <li>Omelette - $7.00</li>
+            <li>French Toast - $6.00</li>
+            <li>Smoothie - $4.00</li>
+            <li>Coffee - $2.00</li>
+        </ul>
+    </div>
 
-<h1>Starter
-Gallery Assignment</h1>
+    <div class="menu lunch">
+        <h1>Lunch Menu</h1>
+        <ul>
+            <li>Caesar Salad - $8.00</li>
+            <li>Grilled Chicken Sandwich - $10.00</li>
+            <li>Vegetable Stir-Fry - $9.00</li>
+            <li>Fruit Juice - $3.00</li>
+            <li>Chips - $2.00</li>
+        </ul>
+    </div>
 
-<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>By: Eden
-Jones</span></p>
-
-<p class=MsoNormal><b>Dated: September 5, 2025</b></p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoNormal><span style='font-size:20.0pt;line-height:107%'>Category: Temple
-Art</span></p>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=1001 colspan=3 valign=top style='width:750.9pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>Public Domain Licensed</span></b></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><span style='font-size:10.0pt'>Website: <a
-  href="https://pdimagearchive.org/">https://pdimagearchive.org/</a></span></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=338 valign=top style='width:253.8pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><img border=0 width=234 height=351 id="Picture 1"
-  src="image001.jpg"></p>
-  </td>
-  <td width=316 valign=top style='width:237.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><img border=0 width=278 height=343 id="Picture 2"
-  src="image002.jpg"></p>
-  </td>
-  <td width=346 valign=top style='width:259.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><img border=0 width=332 height=343 id="Picture 3"
-  src="image003.jpg"></p>
-  </td>
- </tr>
- <tr>
-  <td width=338 valign=top style='width:253.8pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'>Image # 1</p>
-  </td>
-  <td width=316 valign=top style='width:237.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'>Image # 2</p>
-  </td>
-  <td width=346 valign=top style='width:259.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'>Image # 3</p>
-  </td>
- </tr>
- <tr>
-  <td width=338 valign=top style='width:253.8pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center;
-  line-height:107%'><b><span style='font-size:14.0pt;line-height:107%'>Chinese</span></b></p>
-  <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center;
-  line-height:107%'><b><span style='font-size:14.0pt;line-height:107%'>Chu Biao
-  in&nbsp;<i>The Bala Temple</i></span></b></p>
-  </td>
-  <td width=316 valign=top style='width:237.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center;
-  line-height:107%'><b><span style='font-size:14.0pt;line-height:107%'>Chinese</span></b></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>Jin Jia in&nbsp;<i>The
-  Jia Family Pavilion</i></span></b></p>
-  </td>
-  <td width=346 valign=top style='width:259.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:8.0pt;text-align:center;
-  line-height:107%'><b><span style='font-size:14.0pt;line-height:107%'>Chinese</span></b></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>Jiang Ren in&nbsp;<i>The
-  Rouge Tigress</i></span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=1001 colspan=3 valign=top style='width:750.9pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=1001 colspan=3 valign=top style='width:750.9pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>Creative Commons License
-  Images</span></b></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><span style='font-size:10.0pt'>Website: <a
-  href="https://www.dreamstime.com/">https://www.dreamstime.com/</a></span></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=338 valign=top style='width:253.8pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><img border=0 width=324 height=262 id="Picture 4"
-  src="image004.jpg"
-  alt="Statues in the temple art culture in Khon Kaen Generality in Thailand, any kind of art decorated in Buddhist church, temple pavilion, temple hall, monk's house etc. created with money donated by people to hire artist. They are public domain or treasure of Buddhism, no restrict in copy or use, no name of artist appear (but, if there is artist name, it only for tell who is the artist or work, not for copyright). This photo is taken under these con ditions. Temple art stock images, royalty-free photos and pictures"></p>
-  </td>
-  <td width=316 valign=top style='width:237.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'><img border=0
-  width=302 height=252 id="Picture 5"
-  src="image005.jpg"
-  alt="Art thai painting on wall in temple wat phra kaeo Bangkok Thailand. Temple art stock images, royalty-free photos and pictures"></span></b></p>
-  </td>
-  <td width=346 valign=top style='width:259.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'><img border=0
-  width=298 height=256 id="Picture 6"
-  src="image006.jpg"
-  alt="Pattern Thai temple mural art on fine art of Thai art Thai painted. Delicate beauty. Is a story that tells of a tradition in religion and literature as well. Generality in Thailand, any kind of art decorated in Buddhist church, temple pavilion, temple hall, monk's house etc. Created with money donated by people to hire artist. They are public domain or treasure of Buddhism, no restrict in copy. Temple art stock images, royalty-free photos and pictures"></span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=338 valign=top style='width:253.8pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'>Image # 4</p>
-  </td>
-  <td width=316 valign=top style='width:237.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'>Image # 5</p>
-  </td>
-  <td width=346 valign=top style='width:259.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'>Image # 6</p>
-  </td>
- </tr>
- <tr>
-  <td width=338 valign=top style='width:253.8pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>Thai art on temple
-  walls.</span></b></p>
-  </td>
-  <td width=316 valign=top style='width:237.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>Thai art on temple
-  walls.</span></b></p>
-  </td>
-  <td width=346 valign=top style='width:259.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
-  line-height:normal'><b><span style='font-size:14.0pt'>Thai art on temple
-  walls.</span></b></p>
-  </td>
- </tr>
-</table>
-
-</div>
+    <div class="menu dinner">
+        <h1>Dinner Menu</h1>
+        <ul>
+            <li>Steak - $20.00</li>
+            <li>Salmon - $18.00</li>
+            <li>Pasta Primavera - $15.00</li>
+            <li>Red Wine - $10.00</li>
+            <li>Dessert - $6.00</li>
+        </ul>
+    </div>
 
 </body>
-
 </html>
