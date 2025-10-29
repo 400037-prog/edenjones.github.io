@@ -1,0 +1,45 @@
+<style>
+
+
+    div.grid-item1 {
+        grid-area: hd;
+        /*header*/
+    }
+    div.grid-item2 {
+        grid-area: nv;
+        /*navigation*/
+    }
+    div.grid-item3 {
+        grid-area: mn;
+        /*main content*/
+    }
+    div.grid-item4 {
+        grid-area: ft;
+        /*footer*/
+    }
+    section.grid-container {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+
+        'hd hd hd hd hd hd'
+        'nv nv mn mn mn mn'
+        '.  ft ft ft ft .';
+    }
+</style>
+
+<section class="grid-container">
+    <div class="grid-item1">
+        Header
+    </div>
+    <div class="grid-item2">
+        Navigation
+    </div>
+    <div class="grid-item3">
+        Main Content
+    </div>
+    <div class="grid-item4">
+        Footer
+    </div>
+</section>
