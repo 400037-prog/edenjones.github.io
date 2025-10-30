@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puzzle Assignment</title>
+    <title>flexbox grid puzzle assignment.html</title>
+    <title>Eden Jones</title>
+    <title>Completed date: 10/30/2025</title>
     <style>
         /* CSS Styles */
         body {
@@ -15,7 +14,7 @@
         .grid-container {
             display: grid;
             grid-template-rows: auto 1fr auto;
-            grid-template-columns: 1fr;
+            grid-template-columns: auto auto auto;
             gap: 20px;
             padding: 20px;
         }
@@ -40,14 +39,12 @@
             padding: 20px;
             border-radius: 8px;
         }
-
         .flex-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            gap: 10px;
+            width: 400px; /* Adjust based on your image size */
         }
+
 
         .flex-container img {
             width: 100px; /* Adjust size as needed */
@@ -62,19 +59,22 @@
 <body>
     <div class="grid-container">
         <section class="personal-info">
-            <h1>Your Name</h1>
-            <p>Brief personal information...</p>
+            <h1>Eden Jones</h1>
+            <p>11th Grade Student at Brimingham High School</p>
         </section>
         <section class="puzzle-solving">
             <h2>Puzzle Solving Section</h2>
             <div class="flex-container">
-                <img src="images/piece1.jpg" alt="Puzzle Piece 1">
-                <img src="images/piece2.jpg" alt="Puzzle Piece 2">
-                <img src="images/piece3.jpg" alt="Puzzle Piece 3">
-                <img src="images/piece4.jpg" alt="Puzzle Piece 4">
-                <img src="images/piece5.jpg" alt="Puzzle Piece 5">
-                <img src="images/piece6.jpg" alt="Puzzle Piece 6">
-                <img src="images/piece7.jpg" alt="Puzzle Piece 7" class="hidden-piece">
+                <img src="image/puzzle3_A.jpg" alt="Puzzle Piece 1">
+                <img src="image/puzzle3_B.jpg" alt="Puzzle Piece 2">
+                <img src="image/puzzle3_C.jpg" alt="Puzzle Piece 3">
+                <img src="image/puzzle3_D.jpg" alt="Puzzle Piece 4">
+                <img src="image/puzzle3_E.jpg" alt="Puzzle Piece 5">
+                <img src="image/puzzle3_F.jpg" alt="Puzzle Piece 6">
+                <img src="image/puzzle3_G.jpg" alt="Puzzle Piece 7">
+                <img src="image/puzzle3_H.jpg" alt="Puzzle Piece 8">
+                <img src="image/puzzle3_I.jpg" alt="Puzzle Piece 9">
+                <img src="image/puzzle3_J.jpg" alt="Puzzle Piece 10" class="hidden-piece">
             </div>
         </section>
         <section class="completion-date">
