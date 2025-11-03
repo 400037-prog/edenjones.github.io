@@ -1,0 +1,80 @@
+/* Shared stylesheet for all scorecards */
+:root{
+  --bg:#f7fafc;
+  --card:#ffffff;
+  --accent:#2b6cb0;
+  --muted:#6b7280;
+  --border:#e2e8f0;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:#111827;
+  margin:1.5rem;
+}
+header h1{margin:0 0 1rem 0;font-size:1.4rem;color:var(--accent)}
+
+/* Base table styling */
+.scorecard{
+  width:100%;
+  max-width:980px;
+  border-collapse:collapse;
+  background:var(--card);
+  box-shadow:0 1px 4px rgba(2,6,23,0.06);
+  margin-bottom:2rem;
+  overflow:hidden;
+  border:1px solid var(--border);
+}
+.scorecard caption{
+  text-align:left;
+  padding:.6rem 1rem;
+  font-weight:600;
+  color:var(--muted);
+  background:linear-gradient(90deg, rgba(43,108,176,0.06), transparent);
+}
+.scorecard th,
+.scorecard td{
+  padding:.45rem .6rem;
+  border-top:1px solid var(--border);
+  text-align:center;
+  font-size:.94rem;
+}
+
+/* left column align */
+.scorecard td:first-child,
+.scorecard th:first-child{ text-align:left; padding-left:1rem; font-weight:600; }
+
+/* totals and runs */
+.scorecard .total,
+.scorecard .runs{ font-weight:700; color:var(--accent) }
+
+/* zebra rows */
+.scorecard tbody tr:nth-child(odd){ background:#ffffff }
+.scorecard tbody tr:nth-child(even){ background:#fbfdff }
+
+/* pseudo-class: highlight row on hover */
+.scorecard tbody tr:hover{ background: linear-gradient(90deg, rgba(43,108,176,0.04), rgba(43,108,176,0.02)); }
+
+/* differentiate game types slightly */
+.scorecard.golf th:first-child{ width:160px }
+.scorecard.baseball th:nth-child(4){ width:40px } /* E column */
+.scorecard.bowling th{ font-size:.9rem }
+
+/* editable cells hint */
+.scorecard td[contenteditable]{
+  cursor:text;
+  background:linear-gradient(90deg, rgba(99,102,241,0.02), transparent);
+}
+.scorecard td[contenteditable]:focus{
+  outline:2px solid rgba(99,102,241,0.18);
+  background:#fff;
+}
+
+/* responsive */
+@media (max-width:700px){
+  .scorecard{ font-size:.88rem }
+  .scorecard th:nth-child(n+6), .scorecard td:nth-child(n+6){ display:none }
+  .scorecard caption{ font-size:.95rem }
+}
