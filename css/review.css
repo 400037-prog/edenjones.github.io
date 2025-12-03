@@ -31,11 +31,12 @@ h1 {
 }
 
 .card:hover {
-    transform: scale(3.05);
+    transform: scale(1.05);
 }
 
 .question {
     font-weight: bold;
+    transition: opacity 0.3s;
 }
 
 .answer {
@@ -48,9 +49,13 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.card:hover .question {
+    opacity: 0; /* Fade out the question */
+}
+
 .card:hover .answer {
-    display: block;
-    opacity: 1;
+    display: block; /* Show the answer */
+    opacity: 1; /* Fade in the answer */
 }
 
 @keyframes fadeIn {
